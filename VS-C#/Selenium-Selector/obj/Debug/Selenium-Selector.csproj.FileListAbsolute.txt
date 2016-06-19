@@ -1,0 +1,11 @@
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\Selenium-Selector\bin\Debug\IEDriverServer.exe
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\Selenium-Selector\bin\Debug\Selenium-Selector.exe.config
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\Selenium-Selector\bin\Debug\Selenium-Selector.exe
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\Selenium-Selector\bin\Debug\Selenium-Selector.pdb
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\Selenium-Selector\bin\Debug\WebDriver.dll
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\Selenium-Selector\bin\Debug\WebDriver.Support.dll
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\Selenium-Selector\bin\Debug\WebDriver.xml
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\Selenium-Selector\bin\Debug\WebDriver.Support.xml
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\Selenium-Selector\obj\Debug\Selenium-Selector.csprojResolveAssemblyReference.cache
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\Selenium-Selector\obj\Debug\Selenium-Selector.exe
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\Selenium-Selector\obj\Debug\Selenium-Selector.pdb
