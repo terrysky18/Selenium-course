@@ -1,0 +1,11 @@
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\SetupEnvironment\SetupEnvironment\bin\Debug\SetupEnvironment.exe.config
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\SetupEnvironment\SetupEnvironment\bin\Debug\IEDriverServer.exe
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\SetupEnvironment\SetupEnvironment\bin\Debug\SetupEnvironment.exe
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\SetupEnvironment\SetupEnvironment\bin\Debug\SetupEnvironment.pdb
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\SetupEnvironment\SetupEnvironment\bin\Debug\WebDriver.dll
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\SetupEnvironment\SetupEnvironment\bin\Debug\WebDriver.Support.dll
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\SetupEnvironment\SetupEnvironment\bin\Debug\WebDriver.xml
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\SetupEnvironment\SetupEnvironment\bin\Debug\WebDriver.Support.xml
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\SetupEnvironment\SetupEnvironment\obj\Debug\SetupEnvironment.csprojResolveAssemblyReference.cache
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\SetupEnvironment\SetupEnvironment\obj\Debug\SetupEnvironment.exe
+C:\Users\terry\Documents\Visual Studio 2015\Projects\Selenium-course\VS-C#\SetupEnvironment\SetupEnvironment\obj\Debug\SetupEnvironment.pdb
