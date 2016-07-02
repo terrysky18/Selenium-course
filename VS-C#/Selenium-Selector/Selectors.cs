@@ -7,7 +7,7 @@ class Selectors
 {
     static void Main()
     {
-        SelectorByID();
+        NoElementException();
     }
 
     private static void GreenMessage(string message)
@@ -67,6 +67,91 @@ class Selectors
         else
         {
             RedMessage("Element not found");
+        }
+        var name = System.Console.ReadLine();
+        browser.Quit();
+    }
+
+    static void SelectorByClass()
+    {
+        string test_site = "http://testing.todorvachev.com/selectors/class-name/";
+        IWebDriver browser = new ChromeDriver();
+        browser.Navigate().GoToUrl(test_site);
+
+        string class_name = "testClass";
+        IWebElement element = browser.FindElement(By.ClassName(class_name));
+
+        if (element.Displayed)
+        {
+            // element found in the page
+            GreenMessage(element.Text);
+            GreenMessage("Indeed, element found in the page");
+        }
+        else
+        {
+            RedMessage("Element not found");
+        }
+        var name = System.Console.ReadLine();
+        browser.Quit();
+    }
+
+    static void SelectorByPath()
+    {
+        string test_site = "http://testing.todorvachev.com/selectors/css-path/";
+        IWebDriver browser = new ChromeDriver();
+        browser.Navigate().GoToUrl(test_site);
+
+        string cssPath = "#post-108 > div > figure > img";  //preferred selector
+        string xPath = "//*[@id=\"post-108\"]/div/figure/img";
+
+        IWebElement cssPath_element = browser.FindElement(By.CssSelector(cssPath));
+        IWebElement xPath_element = browser.FindElement(By.XPath(xPath));
+
+        if (cssPath_element.Displayed)
+        {
+            // element found in the page
+            GreenMessage("Indeed, CSS path element found in the page");
+        }
+        else
+        {
+            RedMessage("CSS path element not found");
+        }
+
+        if (xPath_element.Displayed)
+        {
+            // element found in the page
+            GreenMessage("Indeed, Xpath element found in the page");
+        }
+        else
+        {
+            RedMessage("Xpath element not found");
+        }
+
+        var name = System.Console.ReadLine();
+        browser.Quit();
+    }
+
+    static void NoElementException()
+    {
+        // The function demonstrates how to 
+        string test_site = "http://testing.todorvachev.com/selectors/css-path/";
+        IWebDriver browser = new ChromeDriver();
+        browser.Navigate().GoToUrl(test_site);
+
+        string cssPath = "#post-108 > div > figre > img";  //purposely wrong path string
+
+        // use try-catch to handle the exception
+        try
+        {
+            IWebElement cssPath_element = browser.FindElement(By.CssSelector(cssPath));
+            if (cssPath_element.Displayed)
+            {
+                GreenMessage("Indeed, CSS path element found in the page");
+            }
+        }
+        catch (NoSuchElementException)
+        {
+            RedMessage("CSS path element not found");
         }
         var name = System.Console.ReadLine();
         browser.Quit();

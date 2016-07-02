@@ -7,7 +7,7 @@ class EntryPoint
 {
     static void Main()
     {
-        
+        QuickTestChrome();
     }
     
     static void QuickTestChrome()
@@ -24,7 +24,7 @@ class EntryPoint
         // Open Internet Explorer and navigate to a test page then close IE
         IWebDriver driver = new InternetExplorerDriver();     //initialise webdriver
         driver.Navigate().GoToUrl("http://testing.todorvachev.com");
-        Thread.Sleep(3000);     //pause for 3 seconds
+        //Thread.Sleep(3000);     //pause for 3 seconds
         driver.Quit();
     }
 }
